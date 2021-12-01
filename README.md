@@ -1,2 +1,2 @@
-# adventofcode
-Advent of Code 2021
+# Advent of Code
+Advent of Code 2021 Mihai Gabriel
