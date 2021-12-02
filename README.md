@@ -4,12 +4,16 @@ This repository contains (/will contain) every AoC day solved as a separate Rust
 
 
 
-| Day             | Completion                      |
-| :-------------: | :-----------------------------: |
-| [I][aoc-2021-1] | [Completed](./day1/src/lib.rs)  |
-| II              | To be continued                 |
+| Day              | Completion                      |
+| :--------------: | :-----------------------------: |
+| [I][aoc-2021-1]  | [Completed](./day1/src/lib.rs)  |
+| [II][aoc-2021-2] | [Completed](./day2/src/lib.rs)  |
+| III              | To be continued                 |
+
+It takes the `input` as a `file.txt` and it prints the result to `stdout`.
 
 I've included comments and tests for each solution.
 
 [aoc-2021]: https://adventofcode.com/2021
 [aoc-2021-1]: https://adventofcode.com/2021/day/1
+[aoc-2021-2]: https://adventofcode.com/2021/day/2
