@@ -4,19 +4,20 @@ This repository contains (/will contain) every AoC day solved as a separate Rust
 
 
 
-| Day               | Completion                      |
-| :---------------: | :-----------------------------: |
-| [I][aoc-2021-1]   | [Completed](./day1/src/lib.rs)  |
-| [II][aoc-2021-2]  | [Completed](./day2/src/lib.rs)  |
-| [III][aoc-2021-3] | [Completed](./day3/src/lib.rs)  |
-| [IV][aoc-2021-4]  | [Completed](./day4/src/lib.rs)  |
-| [V][aoc-2021-5]   | [Completed](./day5/src/lib.rs)  |
-| [VI][aoc-2021-5]  | [Completed](./day6/src/lib.rs)  |
-| [VII][aoc-2021-5] | [Completed](./day7/src/lib.rs)  |
+| Day                | Completion                      |
+| :----------------: | :-----------------------------: |
+| [I][aoc-2021-1]    | [Completed](./day1/src/lib.rs)  |
+| [II][aoc-2021-2]   | [Completed](./day2/src/lib.rs)  |
+| [III][aoc-2021-3]  | [Completed](./day3/src/lib.rs)  |
+| [IV][aoc-2021-4]   | [Completed](./day4/src/lib.rs)  |
+| [V][aoc-2021-5]    | [Completed](./day5/src/lib.rs)  |
+| [VI][aoc-2021-6]   | [Completed](./day6/src/lib.rs)  |
+| [VII][aoc-2021-7]  | [Completed](./day7/src/lib.rs)  |
+| [VIII][aoc-2021-8] | [Completed](./day8/src/lib.rs)  |
 
 It takes the `input` as a `file.txt` and it prints the result to `stdout`.
 
-I've included comments and tests for each solution.
+I've included (/'m going to include) comments and tests for each solution.
 
 [aoc-2021]: https://adventofcode.com/2021
 [aoc-2021-1]: https://adventofcode.com/2021/day/1
@@ -26,3 +27,4 @@ I've included comments and tests for each solution.
 [aoc-2021-5]: https://adventofcode.com/2021/day/5
 [aoc-2021-6]: https://adventofcode.com/2021/day/6
 [aoc-2021-7]: https://adventofcode.com/2021/day/7
+[aoc-2021-8]: https://adventofcode.com/2021/day/8
