@@ -12,7 +12,7 @@ use std::fs;
 pub fn run(filename: &str) -> Result<(), Box<dyn Error>> {
     let contents = fs::read_to_string(filename)?;
 
-    let mut matrix: Vec<Vec<u32>> = contents
+    let matrix: Vec<Vec<u32>> = contents
         .lines()
         .map(|x| x.bytes().fold(vec![], |mut acc, val| {
             acc.push((val - 0x30) as u32);
@@ -80,16 +80,15 @@ fn chain_reaction(m: &mut Vec<Vec<u32>>, v: &mut Vec<Vec<bool>>, i: usize, j: us
         }
         _ => {
             m[i][j] += 1;
-            match m[i][j] {
-                10 => chain_reaction(m, v, i, j),
-                _ => ()
+            if m[i][j] == 10 {
+                chain_reaction(m, v, i, j);
             }
         }
     }
 }
 
-fn solve_part_one(matrix: &Vec<Vec<u32>>) -> u64 {
-    let mut matrix = matrix.clone();
+fn solve_part_one(matrix: &[Vec<u32>]) -> u64 {
+    let mut matrix = matrix.to_owned();
     let mut total = 0;
     for _ in 0..100 {
         let mut visited = vec![vec![false; matrix[0].len()]; matrix.len()];
@@ -109,8 +108,8 @@ fn solve_part_one(matrix: &Vec<Vec<u32>>) -> u64 {
     total
 }
 
-fn solve_part_two(matrix: &Vec<Vec<u32>>) -> u64 {
-    let mut matrix = matrix.clone();
+fn solve_part_two(matrix: &[Vec<u32>]) -> u64 {
+    let mut matrix = matrix.to_owned();
     let mut count = 0;
     loop {
         count += 1;
