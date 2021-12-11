@@ -1,9 +1,10 @@
-//! advent of code 2021, day 9
+//! Advent of Code 2021, Day 9
 //! https://adventofcode.com/2021/day/9
 //!
-//! șucaliuc mihai-gabriel
+//! Șucaliuc Mihai-Gabriel
 //! https://github.com/mihai-gabriel/
 //!
+
 
 use std::error::Error;
 use std::fs;

@@ -1,7 +1,7 @@
-//! advent of code 2021, day 10
+//! Advent of Code 2021, Day 10
 //! https://adventofcode.com/2021/day/10
 //!
-//! șucaliuc mihai-gabriel
+//! Șucaliuc Mihai-Gabriel
 //! https://github.com/mihai-gabriel/
 //!
 //! Notes:
